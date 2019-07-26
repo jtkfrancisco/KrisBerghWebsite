@@ -1,6 +1,14 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+html{
+	background-color: #161616;
+}
+
 .Background_img{
-	width: 100%;
-	margin: 0;
+	width: 101%;
+	margin: -0.45%;
 	padding: 0;
 	border: 0;
 	left: 0px;
