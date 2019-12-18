@@ -24,6 +24,15 @@
 	border: 0;
 }
 
+.HomeSpacer {
+    height: 11px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #02151C;
+}
+
 /*------------------------------MAIN NAV------------------------------*/
 .clickBox-home{
     position: absolute;
@@ -81,8 +90,24 @@ div.clickBox-contact:hover{
 }
 
 /*------------------------------Animation------------------------------*/
+.Home-Content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1001;
+}
+
+.Home-Img{
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    left: 0px;
+}
+
 .AnimationContainer{
-    position: absolute;
+    position: relative;
     width: 101.1%;
     height: 84.6%;
     margin: -0.53%;
@@ -90,16 +115,16 @@ div.clickBox-contact:hover{
     border: 0;
     top: 9.1%;
     left: 0;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .box01{
 	position: absolute;
     width: 28.6%;
-    height: 14%;
-    background-color: red;
+    height: 18%;
+    background-color: #02151C;
     z-index: 1000;
-    top: 0%;
+    top: -2%;
     right: 0;
 
     animation-name: ambientFlow01;
@@ -113,10 +138,10 @@ div.clickBox-contact:hover{
 }
 
 .box02{
-position: absolute;
+	position: absolute;
     width: 53.8%;
-    height: 18.8%;
-    background-color: red;
+    height: 20%;
+    background-color: #02151C;
     z-index: 1000;
     top: 14%;
     right: 0;
@@ -134,8 +159,8 @@ position: absolute;
 .box03{
 	position: absolute;
     width: 31.8%;
-    height: 16.4%;
-    background-color: red;
+    height: 18%;
+    background-color: #02151C;
     z-index: 1000;
     top: 32.8%;
     right: 0;
@@ -153,8 +178,8 @@ position: absolute;
 .box04{
     position: absolute;
     width: 21%;
-    height: 34%;
-    background-color: red;
+    height: 36%;
+    background-color: #02151C;
     z-index: 1000;
     top: 49.2%;
     right: 0;
@@ -172,8 +197,8 @@ position: absolute;
 .box05{
 	position: absolute;
     width: 32.4%;
-    height: 16.8%;
-    background-color: red;
+    height: 18%;
+    background-color: #02151C;
     z-index: 1000;
     top: 83.1%;
     right: 0;
@@ -186,4 +211,19 @@ position: absolute;
 @keyframes ambientFlow05{
 	50%{width: 37%;}
 	100%{width: 32.4%;}
+}
+
+/*------------------------------Content------------------------------*/
+.Video01{
+	position: absolute;
+	width: 30%
+	height: 60%;
+	top: 2.45%;
+    left: 42.85%;
+}
+
+.Video02{
+	position: absolute;
+	top: 31.65%;
+    left: 3.5%
 }
