@@ -18,3 +18,16 @@ $(".clickBox-media").on('click', function(){
 $(".clickBox-contact").on('click', function(){
 	window.location.href = "contact.html";
 })
+
+//-------------------------------------------Content----------------------------------------
+$(".clickBox-album01").on('click', function(){
+	window.location.href = "https://softlydear.bandcamp.com/album/softly-dear";
+})
+
+$(".clickBox-album02").on('click', function(){
+	window.location.href = "https://boatsandbridges.bandcamp.com/album/aloof-2";
+})
+
+$(".clickBox-album03").on('click', function(){
+	window.location.href = "https://soundcloud.com/doksrobotiks/sets/doks";
+})
