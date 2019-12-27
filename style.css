@@ -17,12 +17,37 @@
     border: 0;
     left: 0px
 }
+
+.Mobile_Background_img{
+	width: 101.1%;
+    margin: -0.53%;
+    padding: 0;
+    border: 0;
+    left: 0px
+}
+
+.Mobile_Background_img-NFC{
+	width: 101.1%;
+    margin: -0.53%;
+    padding: 0;
+    border: 0;
+    left: 0px
+}
+
 .clickContainer{
 	position: relative;
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
+
+.Mobile_clickContainer{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 
 .HomeSpacer {
     height: 11px;
@@ -31,6 +56,69 @@
     padding: 0;
     border: 0;
     background-color: #02151C;
+}
+/*------------------------------RESPONSIVE DESIGN------------------------------*/
+/*remove desktop elements*/
+@media all and (max-device-width: 770px){
+	#main-nav{display: none;}
+	.HomeSpacer{display: none;}
+	.AnimationContainer{display: none;}
+	.Background_img{display: none;}
+}
+
+/*remove mobile elements*/
+@media all and (min-device-width: 770px){
+	.Mobile_Background_img{display: none;}	
+	.Mobile_Video01{display: none;}
+	.Mobile_Video02{display: none;}
+}
+
+.Mobile_clickBox-home{
+    position: absolute;
+    background-color: white;
+    top: 4%;
+    left: 10%;
+    height: 16%;
+    width: 80%;
+    opacity: 0.01;
+}
+.Mobile_clickBox-about{
+    position: absolute;
+    background-color: white;
+    top: 23%;
+    left: 10%;
+    height: 16%;
+    width: 80%;
+    opacity: 0.01;
+}
+
+.Mobile_clickBox-photos{
+    position: absolute;
+    background-color: white;
+    top: 42%;
+    left: 10%;
+    height: 16%;
+    width: 80%;
+    opacity: 0.01;
+}
+
+.Mobile_clickBox-media{
+    position: absolute;
+    background-color: white;
+    top: 61%;
+    left: 10%;
+    height: 16%;
+    width: 80%;
+    opacity: 0.01;
+}
+.Mobile_clickBox-contact{
+    position: absolute;
+    background-color: white;
+    top: 80%;
+    left: 10%;
+    height: 16%;
+    width: 80%;
+    opacity: 0.01;
 }
 
 /*------------------------------MAIN NAV------------------------------*/
@@ -230,6 +318,27 @@ div.clickBox-contact:hover{
     height: 51%;
 }
 
+.Mobile_Video01{
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    width: 80%;
+    height: 21%;
+}
+
+.Mobile_Video02{
+	position: absolute;
+    top: 47%;
+    left: 10%;
+    width: 80%;
+    height: 25%;
+}
+
+#Mobile-Media{
+	position: absolute;
+	top: 71%;
+}
+
 .clickBox-album01{
     position: absolute;
     background-color: white;
@@ -261,6 +370,63 @@ div.clickBox-contact:hover{
     top: 1.9%;
     left: 74.1%;
     z-index: 100;
+}
+
+.clickBox-phone{
+	position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
+}
+.clickBox-email{
+    position: absolute;
+    top: 47.5%;
+    left: 10%;
+    width: 80%;
+    height: 5.8%;
+}
+.clickBox-website{
+	position: absolute;
+    top: 54.7%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
+}
+.clickBox-instagram{
+	position: absolute;
+    top: 62%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
+}
+.clickBox-facebook{
+	position: absolute;
+    top: 69.3%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
+}
+.clickBox-apple{
+	position: absolute;
+    top: 76.5%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
+}
+.clickBox-spotify{
+	position: absolute;
+    top: 84%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
+}
+.clickBox-soundcloud{
+	position: absolute;
+    top: 91%;
+    left: 10%;
+    width: 80%;
+    height: 6%;
 }
 
 /*------------------------------Contact form------------------------------*/
