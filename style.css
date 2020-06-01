@@ -302,6 +302,31 @@ div.clickBox-contact:hover{
 }
 
 /*------------------------------Content------------------------------*/
+.clickBox-instagram-home{
+    position: absolute;
+    width: 3.2%;
+    height: 6.6%;
+    top: 89%;
+    left: 73%;
+    z-index: 100000;
+}
+.clickBox-mail{
+    position: absolute;
+    width: 3.2%;
+    height: 6.6%;
+    top: 89%;
+    left: 82.4%;
+    z-index: 100000;
+}
+.clickBox-youtube{
+    position: absolute;
+    width: 3.2%;
+    height: 6.6%;
+    top: 89%;
+    left: 91.3%;
+    z-index: 100000;
+}
+
 .Video01{
 	position: absolute;
     top: 3.65%;

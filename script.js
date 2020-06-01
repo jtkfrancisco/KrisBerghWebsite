@@ -42,6 +42,16 @@ $(".Mobile_clickBox-contact").on('click', function(){
 
 
 //-------------------------------------------Content----------------------------------------
+$(".clickBox-instagram-home").on('click', function(){
+	window.location.href = "https://instagram.com/kris.bergh";
+})
+$(".clickBox-mail").on('click', function(){
+	alert("please feel free to email me at KrisBerghMusic@gmail.com");
+})
+$(".clickBox-youtube").on('click', function(){
+	window.location.href = "https://www.youtube.com/channel/UCLKfLb-zBeKO6R0oOvrr62A?view_as=subscriber&fbclid=IwAR021qXU6EC5mXpYytIYLDRolzmvIvClnyek-w4cHMSNSDBQM6_OzVkrIxQ";
+})
+
 $(".clickBox-album01").on('click', function(){
 	window.location.href = "https://softlydear.bandcamp.com/album/softly-dear";
 })
